@@ -55,8 +55,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: #000;
-    opacity: .7;
+    background: hsla(0, 0%, 0%, 0.5);
     content: '';
     border-radius: 15px;
 }
@@ -93,7 +92,7 @@
     color: #FFFFFF;
 }
 .jumbotron .user{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -362,9 +361,6 @@
 }
 
 @media (min-width: 768px){
-    .desktop{
-        /* display: none !important; */
-    }
     .galeri .overlay-slide{
         width: auto;
         height: auto;
@@ -375,11 +371,5 @@
     .galeri .content .content-image-info{
         width: 100% !important;
         height: 350px !important;
-    }
-}
-
-@media (min-width: 1200px){
-    .tablet{
-        /* display: none !important; */
     }
 }
