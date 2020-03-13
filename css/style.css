@@ -376,3 +376,61 @@
         height: 350px !important;
     }
 }
+
+@media (min-width: 515px){
+    .jumbotron .jumbotron-item h2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 33px;
+        line-height: 52px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    ..news .card .youtube{  
+        position: absolute;
+        top: 25%;
+        left: 45%;
+        font-size: 48px;
+    }
+    .galeri .overlay-slide {
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
+        margin-bottom: 16px;
+        width: 100%;
+        height: auto;
+        display: block;
+        text-align: center;
+    }
+    .galeri .overlay-slide .img{
+        object-fit: cover;
+        width: 100% ;
+    }
+    .galeri .content .content-image-info{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 1200px){
+    .jumbotron .jumbotron-item h2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 52px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .news .card .youtube{  
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        font-size: 48px;
+    }
+}
