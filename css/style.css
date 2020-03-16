@@ -250,7 +250,6 @@
     box-sizing: border-box;
     overflow: hidden;
     margin-bottom: 16px;
-    width: 267px;
     height: 305px;
 }
 .galeri .overlay-slide .img{
@@ -375,14 +374,27 @@
         width: 100% !important;
         height: 350px !important;
     }
+    .galeri .overlay-slide .desc {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        transform: translate(0, 100%);
+        background: linear-gradient(239.17deg, #1465756e 0%, #2fa47fad 61.61%);
+        border-radius: 4px;
+        transition: all 0.2s ease-in;
+        width: 100% !important;
+        height: 40%;
+        padding: 10px;
+        margin-left: 0 !important;
+    }
 }
 
-@media (min-width: 515px){
+@media (min-width: 576px){
     .jumbotron .jumbotron-item h2{
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: bold;
-        font-size: 33px;
+        font-size: 30px;
         line-height: 52px;
         text-transform: capitalize;
         color: #FFFFFF;
@@ -404,6 +416,20 @@
         height: auto;
         display: block;
         text-align: center;
+    }
+    .galeri .overlay-slide .desc {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        /* transform: translate(0, 100%) !important; */
+        background: linear-gradient(239.17deg, #1465756e 0%, #2fa47fad 61.61%);
+        border-radius: 4px;
+        transition: all 0.2s ease-in;
+        width: 68%;
+        display: block;
+        height: 40%;
+        padding: 10px;
+        margin-left: 16%;
     }
     .galeri .overlay-slide .img{
         object-fit: cover;
@@ -432,5 +458,18 @@
         top: 15%;
         left: 40%;
         font-size: 48px;
+    }
+    .galeri .overlay-slide .desc {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        transform: translate(0, 100%);
+        background: linear-gradient(239.17deg, #1465756e 0%, #2fa47fad 61.61%);
+        border-radius: 4px;
+        transition: all 0.2s ease-in;
+        width: 100%;
+        height: 40%;
+        padding: 10px;
+        margin-left: 0;
     }
 }
