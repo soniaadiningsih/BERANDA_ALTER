@@ -62,7 +62,7 @@
 .jumbotron-item {
     position: relative;
 }
-.jumbotron .jumbotron-item .btn-success{
+.jumbotron .jumbotron-item .badge-success{
     margin-top: -20px;
     padding: 10px 84px;
     font-family: 'Poppins';
@@ -199,6 +199,7 @@
     font-size: 20px;
     line-height: 28px;
     color: #2FA47F;
+    text-align: left;
 }
 .news .card .card-body .card-text{
     font-family: 'Poppins';
@@ -254,6 +255,14 @@
 }
 .galeri .overlay-slide .img{
     object-fit: cover;
+}
+.galeri .galeri-img{
+    width: 345px;
+    height: 320px
+}
+.galeri .galeri-info{
+    width: 500px;
+    height: 360px;
 }
 .galeri .overlay-slide:hover .desc {
     transform: translate(0, 0);
@@ -363,14 +372,23 @@
 }
 
 @media (min-width: 768px){
-    .galeri .overlay-slide{
-        width: auto;
-        height: auto;
+    .jumbotron .jumbotron-item h2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 52px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin-top: 24px;
+        margin-bottom: 24px;
     }
-    .galeri .overlay-slide .img{
+    .galeri .galeri-img{
         object-fit: cover;
+        width: 345px;
+        height: 320px !important;
     }
-    .galeri .content .content-image-info{
+    .galeri .galeri-info{
         width: 100% !important;
         height: 350px !important;
     }
@@ -386,6 +404,15 @@
         height: 40%;
         padding: 10px;
         margin-left: 0 !important;
+    }
+    .news .card .card-body .card-title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 28px;
+        color: #2FA47F;
+        text-align: left;
     }
 }
 
@@ -417,6 +444,10 @@
         display: block;
         text-align: center;
     }
+    .galeri .galeri-img{
+        width: 100%;
+        height: auto;
+    }
     .galeri .overlay-slide .desc {
         position: absolute;
         box-sizing: border-box;
@@ -425,18 +456,27 @@
         background: linear-gradient(239.17deg, #1465756e 0%, #2fa47fad 61.61%);
         border-radius: 4px;
         transition: all 0.2s ease-in;
-        width: 68%;
+        width: 100%;
         display: block;
         height: 40%;
         padding: 10px;
-        margin-left: 16%;
+        
     }
     .galeri .overlay-slide .img{
         object-fit: cover;
         width: 100% ;
     }
-    .galeri .content .content-image-info{
+    .galeri .galeri-info{
         width: 100%;
+    }
+    .news .card .card-body .card-title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 28px;
+        color: #2FA47F;
+        text-align: left;
     }
 }
 
