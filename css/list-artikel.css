@@ -112,7 +112,7 @@
     line-height: 25px;
     color: #333333;
 }
-.card .card-body a{
+.card .card-body .card-link{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;

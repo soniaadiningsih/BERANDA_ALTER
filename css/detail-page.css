@@ -4,7 +4,7 @@ body{
 
 /* header */
 .header .navbar {
-    background: linear-gradient(196.87deg, #146575 0%, #2FA47F 61.61%);
+    background: #009B4C !important;
 }
 .header .navbar .icon{
     color: white;
@@ -61,7 +61,7 @@ body{
     line-height: 36px;
     text-transform: capitalize;
     color: #FFFFFF;
-    background: #2FA47F;
+    background: #009B4C;
     border-radius: 4px;
     margin-bottom: 24px;
 }
@@ -116,7 +116,7 @@ body{
     font-weight: 600;
     font-size: 32px;
     line-height: 39px;
-    color: #2FA47F;
+    color: #009B4C;
     margin-top: 60px;
     margin-bottom: 40px;
 }
@@ -125,7 +125,7 @@ body{
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
 }
 .news .card .badge{
-    background: #2FA47F;
+    background: #009B4C;
     border-radius: 4px;
     padding: 5.5px;
     font-family: 'Poppins';
@@ -170,7 +170,7 @@ body{
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
-    color: #2FA47F;
+    color: #009B4C;
     text-align: left;
 }
 .news .card .card-body .card-text{
@@ -181,7 +181,7 @@ body{
     line-height: 25px;
     color: #333333;
 }
-.news .card .card-body a{
+.news .card .card-body .card-link{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -192,7 +192,7 @@ body{
     flex-direction: row-reverse;
 }
 .news .button .btn-success{
-    background: #2FA47F;
+    background: #009B4C;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     font-family: 'Montserrat';
@@ -233,7 +233,7 @@ body{
     font-weight: normal;
     font-size: 22px;
     line-height: 33px;
-    color: #2FA47F;
+    color: #009B4C;
     margin-bottom: 16px;
 }
 .footer .contact p{
@@ -250,12 +250,12 @@ body{
     font-weight: normal;
     font-size: 22px;
     line-height: 33px;
-    color: #2FA47F;
+    color: #009B4C;
     margin-bottom: 16px;
 }
 .footer .copyright{
     text-align: center;
-    background: linear-gradient(182.76deg, #146575 0%, #2FA47F 45.63%);
+    background: linear-gradient(191.58deg, #023B09 0%, #009B4C 61.61%);
     padding: 15px 0;
     font-style: normal;
     font-weight: normal;

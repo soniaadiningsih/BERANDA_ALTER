@@ -215,7 +215,7 @@
     line-height: 25px;
     color: #333333;
 }
-.news .card .card-body a{
+.news .card .card-body .card-link{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
