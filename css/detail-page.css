@@ -268,5 +268,15 @@ body{
 }
 
 @media (min-width:  576px){
-    
+    .jumbotron h2{
+        font-size: 26px;
+        line-height: 36px;
+    }
+}
+
+@media (min-width: 1200px){
+    .jumbotron h2{
+        font-size: 46px;
+        line-height: 60px;
+    }
 }

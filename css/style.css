@@ -461,6 +461,9 @@
     .get h2{
         padding-top: 0;
     }
+    .footer .footer-icon h5{
+        
+    }
 }
 
 @media (min-width: 576px){
@@ -515,6 +518,7 @@
     }
     .galeri .galeri-info{
         width: 100%;
+        margin-bottom: 16px;
     }
     .news .card .card-body .card-title{
         font-family: 'Poppins';
@@ -531,6 +535,15 @@
     .get p{
         padding: 0px;
     }
+
+    .footer-icon .media img{
+        width: 100px;
+        margin-bottom: 25px;
+    }
+    .footer .contact h4{
+        margin-bottom: 0;
+    }
+    
 }
 
 
@@ -577,5 +590,8 @@
         text-align: center;
         color: #000000;
         padding: 0 220px;
+    }
+    .footer .support img{
+        margin-left: 24px;
     }
 }
