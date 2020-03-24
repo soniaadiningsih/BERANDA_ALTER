@@ -178,8 +178,11 @@
     .bg{
         width: 100%;
     }
+    .box p{
+        margin-bottom: 5px;
+    }
 }
-@media (min-width: 576px){
+@media (max-width: 576px){
     .box{
         margin-left: auto;
         width: 50%;
@@ -187,6 +190,22 @@
     }
     .bg{
         width: 100%;
+    }
+    .box h2{
+        font-size: 30px;
+    }
+    .box p{
+        margin-bottom: 5px;
+    }
+    .contact form label{
+        font-size: 16px;
+    }
+    .footer-icon .media img{
+        width: 100px;
+        margin-bottom: 25px;
+    }
+    .footer .contact h4{
+        margin-bottom: 0;
     }
 }
 
@@ -204,5 +223,14 @@
     }
     .bg{
         width: 50%;
+    }
+    .box h2{
+        font-size: 46px;
+    }
+    .box p{
+        margin-bottom: 40px;
+    }
+    .contact form label{
+        font-size: 18px;
     }
 }

@@ -245,8 +245,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 560px;
+    display: flex;
+    margin-top: 100px;
 }
-.get h2{
+.get .img{
+    margin-left: 50px;
+}
+.get .desc h2{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -254,10 +259,9 @@
     line-height: 70px;
     text-align: center;
     color: #60D179;
-    margin-top: 32px;
-    margin-bottom: 16px;
+    margin-top: -260px;
 }
-.get p{
+.get .desc p{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: normal;
@@ -270,7 +274,6 @@
 .get .btn-success{
     background: #009B4C;
     border-radius: 4px;
-    margin-bottom: 54px;
     margin-top: 48px;
 }
 
@@ -435,6 +438,7 @@
     .galeri .galeri-info{
         width: 100% !important;
         height: 350px !important;
+        margin-bottom: 16px;
     }
     .galeri .overlay-slide .desc {
         position: absolute;
@@ -458,15 +462,18 @@
         color: #009B4C;
         text-align: left;
     }
-    .get h2{
+    .get .desc h2{
         padding-top: 0;
     }
-    .footer .footer-icon h5{
-        
+    .get .desc p{
+        padding: 28px;
+    }
+    .get .img{
+        margin-left: 0;
     }
 }
 
-@media (min-width: 576px){
+@media (max-width: 576px){
     .jumbotron .jumbotron-item h2{
         font-family: 'Montserrat';
         font-style: normal;
@@ -478,7 +485,7 @@
         margin-top: 24px;
         margin-bottom: 24px;
     }
-    ..news .card .youtube{  
+    .news .card .youtube{  
         position: absolute;
         top: 25%;
         left: 45%;
@@ -529,11 +536,24 @@
         color: #009B4C;
         text-align: left;
     }
-    .get h2{
+    .get .desc h2{
         padding: 0;
+        font-size: 38px;
+        margin-top: -210px;
     }
-    .get p{
+    .get .desc p{
         padding: 0px;
+        display: flex;
+    }
+    .get .img{
+        margin-left: 0;
+    }
+    .get .img img{
+        width: 200px;
+        margin-left: 0;
+    }
+    .get .desc{
+
     }
 
     .footer-icon .media img{
@@ -578,10 +598,11 @@
         padding: 10px;
         margin-left: 0;
     }
-    .get h2{
+    .get .desc h2{
         padding-top: 80px;
+        font-size: 47px;
     }
-    .get p{
+    .get .desc p{
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: normal;
@@ -591,7 +612,10 @@
         color: #000000;
         padding: 0 220px;
     }
+    .get .img{
+        margin-left: 50px;
+    }
     .footer .support img{
-        margin-left: 24px;
+        margin-left: 50px t;
     }
 }

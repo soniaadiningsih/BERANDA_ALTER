@@ -267,16 +267,50 @@ body{
     color: yellow;
 }
 
-@media (min-width:  576px){
+@media (max-width:  576px){
     .jumbotron h2{
-        font-size: 26px;
-        line-height: 36px;
+        font-size: 30px !important;
+        line-height: 52px !important;
     }
+
+    .detail-page p{
+
+    }
+    .detail-page img{
+        width: 100%;
+        height: 500px;
+        margin-bottom: 10px;
+    }
+    .news h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    .news .card .youtube{
+        position: absolute;
+        top: 25%;
+        left: 45%;
+    }
+    .footer-icon .media img{
+        width: 100px;
+        margin-bottom: 25px;
+    }
+    .footer .contact h4{
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 768px){
+    
 }
 
 @media (min-width: 1200px){
     .jumbotron h2{
         font-size: 46px;
         line-height: 60px;
+    }
+    .news .card .youtube{
+        position: absolute;
+        top: 15%;
+        left: 40%;
     }
 }

@@ -192,3 +192,27 @@
     color: yellow;
 }
 
+
+@media (max-width: 576px){
+    .footer-icon .media img{
+        width: 100px;
+        margin-bottom: 25px;
+    }
+    .footer .contact h4{
+        margin-bottom: 0;
+    }
+    .card .youtube{
+        position: absolute;
+        top: 25%;
+        left: 45%;
+    }
+}
+
+@media (min-width: 1200px){
+    .news .card .youtube{
+        position: absolute;
+        top: 15%;
+        left: 40%;
+    }
+}
+
