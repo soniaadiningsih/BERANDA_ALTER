@@ -267,7 +267,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    text-align: center;
+    text-align: justify;
     color: #000000;
     padding: 0 220px;
 }
@@ -463,13 +463,27 @@
         text-align: left;
     }
     .get .desc h2{
-        padding-top: 0;
+        padding: 0;
+        font-size: 38px;
+        margin-top: -210px;
     }
     .get .desc p{
-        padding: 28px;
+        padding: 0px;
+        display: flex;
     }
     .get .img{
         margin-left: 0;
+    }
+    .get .img img{
+        width: 200px;
+        margin-left: 0;
+    }
+    .footer-icon .media img{
+        width: 100px;
+        margin-bottom: 25px;
+    }
+    .footer .contact h4{
+        margin-bottom: 0;
     }
 }
 

@@ -181,8 +181,15 @@
     .box p{
         margin-bottom: 5px;
     }
+    .footer-icon .media img{
+        width: 100px;
+        margin-bottom: 25px;
+    }
+    .footer .contact h4{
+        margin-bottom: 0;
+    }
 }
-@media (max-width: 576px){
+@media (min-width: 576px){
     .box{
         margin-left: auto;
         width: 50%;
