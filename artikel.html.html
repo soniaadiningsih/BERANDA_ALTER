@@ -43,7 +43,7 @@
                             <a class="nav-link" href="index.html">Beranda <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href=".html">Tentang</a>
+                            <a class="nav-link" href="tentang.html">Tentang</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="galeri.html">Galeri</a>
@@ -411,33 +411,81 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
     <script type="text/javascript">
-        $('.my-slider').slick({
+        // $('.my-slider').slick({
+        //     slidesToShow: 4,
+        //     slidesToScroll: 1,
+        //     dots: true,
+        //     autoplay: false,
+        //     autoplaySpeed: 0,
+        //     responsive: [
+        //     {
+        //     breakpoint: 768,
+        //     settings: {
+        //         arrows: false,
+        //         centerMode: true,
+        //         centerPadding: '40px',
+        //         slidesToShow: 3
+        //     }
+        //     },
+        //     {
+        //     breakpoint: 480,
+        //     settings: {
+        //         arrows: false,
+        //         centerMode: true,
+        //         centerPadding: '40px',
+        //         slidesToShow: 1
+        //     }
+        //     }
+        // ]
+        // });
+
+        // $(".my-slider").slick({
+        //     autoplay: false,
+        //     slidesToShow: 4,
+        //     slidesToScroll: 1,
+        //     nextArrow: '<div class="right"><i class="fa fa-angle-right"></i></div>',
+        //     prevArrow: '<div class="left"><i class="fa fa-angle-left"></i></div>',
+        //     dots: true,
+        //     customPaging : function(slider, i) {
+        //     var thumb = $(slider.$slides[i]).data();
+        //     return '<a class="dot">'+i+'</a>';
+        //     },
+        //     useTransform: true,
+        //     cssEase: "ease-in-out"
+
+        //     // responsive: [{ 
+        //     //     breakpoint: 500,
+        //     //     settings: {
+        //     //         dots: true,
+        //     //         arrows: false,
+        //     //         infinite: false,
+        //     //         slidesToShow: 2,
+        //     //         slidesToScroll: 2
+        //     //     } 
+        //     // }]
+        // });
+
+
+        $(".my-slider").slick({
+            infinite: true,
             slidesToShow: 4,
             slidesToScroll: 1,
-            dots: true,
             autoplay: false,
             autoplaySpeed: 0,
-            responsive: [
-            {
-            breakpoint: 768,
-            settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 3
-            }
+            nextArrow: '<div class="right"><i class="fa fa-angle-right"></i></div>',
+            prevArrow: '<div class="left"><i class="fa fa-angle-left"></i></div>',
+            dots: true,
+            customPaging : function(slider, i) {
+            var thumb = $(slider.$slides[i]).data();
+            return '<div class="pager__item" id=' + i + "> " + i + " </div>";
             },
-            {
-            breakpoint: 480,
-            settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 1
-            }
-            }
-        ]
-        });
+            useTransform: true,
+            cssEase: "ease-in-out"
+        }); 
+
+        
+
+
                 
     </script>
 

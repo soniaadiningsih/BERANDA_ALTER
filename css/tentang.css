@@ -40,17 +40,17 @@
     color: white !important;
 }
 
-/* about*/
+/* about */
 .about .bg{
-    height: 990px;
-}
+    height: 1310px;
+} 
 
 .content{
     background: #FFFFFF;
     position: relative;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
-    padding: 58px 100px 0px 48px;
+    padding: 58px 100px 48px 48px;
     margin: 72px 0px 0px 0px;
 }
 .content h2{
@@ -88,6 +88,7 @@
     font-size: 22px;
     line-height: 33px;
     color: #009B4C;
+    margin-bottom: 22px  !important;
 }
 .fasilitas .media-body p{
     font-family: 'Open Sans';
@@ -97,8 +98,6 @@
     line-height: 32px;
     color: #333333;
 }
-
-
 
 /* footer */
 .footer{
@@ -112,7 +111,7 @@
     line-height: 43px;
     color: #00501D;
     margin-top: 100px;
-}
+} 
 .footer  p{
     font-family: 'Poppins';
     font-style: normal;
@@ -163,7 +162,7 @@
 
 @media (min-width: 576px){
     .about .bg{
-        height: 1200px;
+        height: 1635px;
     }
     .content{
         padding: 58px 48px 80px 48px;
@@ -200,7 +199,7 @@
 
 @media (min-width: 768px){
     .about .bg{
-        height: 1200px;
+        height: 1432px;
     }
     .content .desc img{
         height: 100%;
@@ -216,10 +215,54 @@
         margin-bottom: 18px;
         
     }
-}
+} 
 
 @media (min-width: 1200px){
     .about .bg{
-        height: 990px;
+        height: 1310px;
+    }
+    .content h2{
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: justify;
+        color: #009B4C;
+    }
+    .content p{
+        font-family:'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+        color: #333333;
+    }
+    .fasilitas h2{
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: justify;
+        color: #333333;
+        margin-bottom: 48px;
+        margin-top: 80px;
+    }
+    .fasilitas .media-body h5{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+        color: #009B4C;
+    }
+    .fasilitas .media-body p{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+        color: #333333;
     }
 }
